@@ -20,6 +20,9 @@
 
     padding: 10px;
 }
+body a{
+    text-decoration: none;
+}
 
 /* Shared Style */
 .display-flex {
@@ -254,6 +257,10 @@
     }
 .cards{
     grid-template-columns: 1fr ;
+    justify-items: center;
+}
+.card{
+    width: 90%;
     
 }
 .round-style{
