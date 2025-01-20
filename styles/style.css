@@ -76,7 +76,7 @@
 .banner-section {
     justify-content: space-between;
     align-items: center;
-    gap: 250px;
+    
 
 }
 
@@ -102,7 +102,63 @@
     font-weight: 600;
 
 }
+/* curriculum section design */
 
+.curriculum-section{
+    background-image: url("../resources/bg.png");
+   background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+}
+.curriculum-section h1{
+    text-align: center;
+    font-size: 3em;
+    margin-top: 50px;
+}
+.curriculum-section img,h2,p{
+    margin-bottom: 10px;
+    
+}
+.curriculum-section img{
+    width: 100%;;
+}
+.curriculum-section h5{
+    margin-top: 35px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 35px;
+    margin: 50px 0;
+    
+    
+    
+}
+.card{
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    box-shadow: 0px 0px 1px;
+    padding: 40px;
+    border-radius: 25px;
+
+    
+    
+}
+.card-1{
+    background-image: linear-gradient(#DEF5FF,#FFFFFF);
+}
+.card-2{
+    background-image: linear-gradient(#FFF4DC,#FFFFFF);
+}
+.card-3{
+    background-image: linear-gradient(#EEE1FF,#FFFFFF);
+}
 @media screen and (max-width:576px) {
     .nav-section {
         border: 1px solid yellow;
@@ -123,6 +179,7 @@
 
     .banner-section {
         flex-direction: column-reverse;
+        gap: 50px;
         margin: 20px 0;
         text-align: center;
     }
@@ -131,5 +188,13 @@
     p {
         margin: 20px 0;
     }
+    .curriculum-section{
+        margin-top: 150px;
+        margin-bottom: 30px;
+    }
+.cards{
+    grid-template-columns: 1fr ;
+    
+}
 
 }
