@@ -19,6 +19,7 @@
     margin: 0 auto;
 
     padding: 10px;
+    background-image: linear-gradient(#FFFFFF,rgb(235, 216, 216));
     
 }
 body p{
@@ -27,6 +28,7 @@ body p{
 }
 body a{
     text-decoration: none;
+    font-size: 1.4em;
 }
 body button:hover{
     
@@ -276,6 +278,7 @@ background-color: red;
 }
 .big-card h3{
     margin: 20px 0;
+    
 }
 .four-cards{
 display: grid;
@@ -284,8 +287,8 @@ grid-template-columns: repeat(2,1fr);
 gap: 10px;
 }
 .four-cards h3{
-    margin: 20px 0;
-    text-align: center;
+    margin: 20px 8px;
+    text-align: left;
 }
 .story-card{
     background-color: #FFFFFF;
