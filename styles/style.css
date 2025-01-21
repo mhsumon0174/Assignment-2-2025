@@ -19,6 +19,7 @@
     margin: 0 auto;
 
     padding: 10px;
+    
 }
 body a{
     text-decoration: none;
@@ -28,6 +29,15 @@ body a{
 .display-flex {
     display: flex;
     align-items: center;
+}
+.live-message{
+    background-color: #05D4DF;
+    padding: 20px 0;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 800;
+    color: #1d1c1c;
+    
 }
 
 .color-1 {
@@ -54,6 +64,7 @@ body a{
 .nav-section {
     justify-content: space-between;
     align-items: center;
+
 }
 .nav-section h2{
     font-size: 2em;
@@ -77,6 +88,9 @@ body a{
     padding: 13px 40px;
     border-radius: 14px;
     font-weight: 800;
+}
+.nav-section button:hover{
+background-color: red;
 }
 
 /* banner section style */
@@ -110,6 +124,9 @@ body a{
     font-weight: 600;
 
 }
+.banner-section button:hover{
+    background-color: red;
+    }
 /* curriculum section design */
 
 .curriculum-section{
@@ -176,12 +193,17 @@ body a{
     gap: 10px;
 
 }
+.round-style div:hover{
+    background-color: red;
+}
 .round{
     height: 50px;
     width: 50px;
     background-color: #FEA301;
     border-radius: 30px;
 }
+
+
 
 /* footer section style */
 
@@ -195,6 +217,7 @@ body a{
    
 
 }
+
 .footer-section p{
     margin-left: 10px;
     margin-top: 10px;
@@ -209,7 +232,7 @@ body a{
     margin-top: 25px;
 }
 .footer-about h6{
-    
+    color: #EEE1FF;
     font-weight: 500;
     padding: 5px;
 }
@@ -223,6 +246,10 @@ body a{
 
 
 @media screen and (max-width:576px) {
+    .live-message{
+        padding: 0;
+        
+    }
     .nav-section {
         border: 1px solid yellow;
         justify-content: space-between;
@@ -250,6 +277,7 @@ body a{
     .banner-section h1,
     p {
         margin: 20px 0;
+     
     }
     .curriculum-section{
         margin-top: 150px;
@@ -266,10 +294,12 @@ body a{
 .round-style{
     display: none;
 }
+
 .footer-section{
     flex-direction: column;
     align-items: flex-start;
 }
+
 .keep-in-touch{
     text-align: left;
 }
