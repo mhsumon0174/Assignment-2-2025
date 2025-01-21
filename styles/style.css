@@ -32,8 +32,8 @@ body a{
 }
 body button:hover{
     
-        background-color: rgb(231, 111, 111);
-        font-size: 2em;
+        background-color: rgb(14, 212, 74);
+        font-size: 1.1em;
        
 }
 
@@ -115,9 +115,7 @@ body button:hover{
     font-weight: 800;
     font-size: 1em;
 }
-.nav-section button:hover{
-background-color: red;
-}
+
 
 /* banner section style */
 
@@ -220,14 +218,21 @@ background-color: red;
 
 }
 .round-style div:hover{
-    background-color: red;
+    background-color: rgb(16, 218, 77);
 }
-.round{
+.round-1{
     height: 50px;
     width: 50px;
-    background-color: #FEA301;
+    background-color: #ee1f1f;
     border-radius: 30px;
 }
+.round-2{
+    height: 50px;
+    width: 50px;
+    background-color: #f7a821;
+    border-radius: 30px;
+}
+
 
 /* card section style */
 .card-bg-color{
