@@ -17,12 +17,22 @@
 .align {
     width: fit-content;
     margin: 0 auto;
-
+border: 1px solid red;
     padding: 10px;
     
 }
+body p{
+    opacity: 0.5;
+    font-weight: 700;
+}
 body a{
     text-decoration: none;
+}
+body button:hover{
+    
+        background-color: rgb(231, 111, 111);
+        font-size: 2em;
+       
 }
 
 /* Shared Style */
@@ -37,6 +47,7 @@ body a{
     font-style: italic;
     font-weight: 800;
     color: #1d1c1c;
+    margin-top: 50px;
     
 }
 
@@ -50,10 +61,20 @@ body a{
 
 .color-3 {
     color: #05D4DF;
+   
 }
 
 .color-4 {
     color: #5D58EF;
+}
+.bg-1{
+    background-color: #05D4DF;
+}
+.bg-2{
+    background-color: rgb(110, 231, 126);
+}
+.bg-3{
+    background-color: #5D58EF;
 }
 
 /* Nav section style */
@@ -88,6 +109,7 @@ body a{
     padding: 13px 40px;
     border-radius: 14px;
     font-weight: 800;
+    font-size: 1em;
 }
 .nav-section button:hover{
 background-color: red;
@@ -121,12 +143,11 @@ background-color: red;
     background-color: black;
     color: white;
     padding: 14px 50px;
-    font-weight: 600;
+    font-weight: 800;
+    font-size: 1em;
 
 }
-.banner-section button:hover{
-    background-color: red;
-    }
+
 /* curriculum section design */
 
 .curriculum-section{
@@ -203,13 +224,84 @@ background-color: red;
     border-radius: 30px;
 }
 
+/* card section style */
+.card-section{
+    
+    margin: 0 auto;
+    background-image: linear-gradient(#FFFFFF,#FEA301);
+}
+
+.card-section h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 3em;
+    font-weight: 800;
+}
+.card-section img{
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+}
+.main-card{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 100px;
+    justify-content: center;
+    gap: 20px;
+}
+.main-card .date{
+    
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 40px;
+    top: -15px;
+    color: #FFFFFF;
+    
+}
+.big-card{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    
+}
+.big-card h3{
+    margin: 20px 0;
+}
+.four-cards{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+gap: 10px;
+}
+.four-cards h3{
+    margin: 20px 0;
+    text-align: center;
+}
+.story-card{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+.button-section{
+    text-align: center;
+}
+.view-button{
+    background-color: rgb(10, 10, 10);
+    padding: 18px 40px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1em;
+    font-weight: 800;
+    border-radius: 15px;
+    margin: 50px 0;
+    display: fl;
+}
 
 
 /* footer section style */
 
 
 .footer-section{
-    margin-top: 100px;
+    
     background-color: #01ACFD;
     justify-content: space-around;
     color: white;
@@ -294,6 +386,22 @@ background-color: red;
 .round-style{
     display: none;
 }
+.card-section{
+    max-width: 576px;
+}
+.main-card{
+    display: flex;
+    
+    
+}
+
+
+.big-card{
+display: none;
+}
+
+
+
 
 .footer-section{
     flex-direction: column;
