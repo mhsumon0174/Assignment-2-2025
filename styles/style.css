@@ -387,11 +387,16 @@ gap: 10px;
     display: none;
 }
 .card-section{
-    max-width: 576px;
+    width: fit-content;
 }
 .main-card{
     display: flex;
     
+    
+}
+.main-card .date{
+    position: relative;
+    left: 25px;
     
 }
 
