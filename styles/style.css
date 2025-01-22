@@ -43,7 +43,7 @@ body button:hover{
     align-items: center;
 }
 .marque-section{
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 1440px;
 }
 .live-message{
@@ -424,9 +424,12 @@ gap: 10px;
 }
 .card-section{
     width: fit-content;
+    justify-items: center;
 }
 .main-card{
     display: flex;
+    
+    width: 90%;
     
     
 }
