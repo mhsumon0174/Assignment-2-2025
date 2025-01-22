@@ -433,14 +433,18 @@ gap: 10px;
 .main-card .date{
     position: relative;
     left: 25px;
+    font-size: 0.6em;
     
 }
+
 
 
 .big-card{
 display: none;
 }
-
+.story-card h3{
+font-size: 0.7em;
+}
 
 
 
@@ -452,6 +456,7 @@ display: none;
 .keep-in-touch{
     text-align: left;
     margin-left: 10px;
+    margin-top: 25px;
 }
 .footer-about{
     margin: 20px 10px;
